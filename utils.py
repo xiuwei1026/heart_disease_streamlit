@@ -8,7 +8,6 @@ import plotly.express as px
 import plotly.graph_objs as go
 
 import io
-
 import base64
 import os
 import json

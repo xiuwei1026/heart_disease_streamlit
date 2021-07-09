@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score, recall_score
 
-from SessionState import get
+#from SessionState import get
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -120,16 +120,17 @@ def main():
 
 
 if __name__ == '__main__':
-    session_state = get(password='')
+    # session_state = get(password='')
 
-    if session_state.password != 'dss123':
-        pwd_placeholder = st.sidebar.empty()
-        pwd = pwd_placeholder.text_input("Password:", value="", type="password")
-        session_state.password = pwd
-        if session_state.password == 'dss123':
-            pwd_placeholder.empty()
-            main()
-        else:
-            st.error("Please type the correct password")
-    else:
-        main()
+    # if session_state.password != 'dss123':
+        # pwd_placeholder = st.sidebar.empty()
+        # pwd = pwd_placeholder.text_input("Password:", value="", type="password")
+        # session_state.password = pwd
+        # if session_state.password == 'dss123':
+            # pwd_placeholder.empty()
+            # main()
+        # else:
+            # st.error("Please type the correct password")
+    # else:
+        # main()
+    main()
