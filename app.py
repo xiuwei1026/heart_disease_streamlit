@@ -33,9 +33,9 @@ def main():
     if st.sidebar.checkbox("Show raw data", False):
         st.subheader("Heart Disease Data Set (Prediction)")
         st.write(df)
-        filename = 'heart_data.xlsx'
-        download_button_str = utils.download_button(df, filename, f'Click here to download {filename}', pickle_it=False)
-        st.markdown(download_button_str, unsafe_allow_html=True)
+        # filename = 'heart_data.xlsx'
+        # download_button_str = utils.download_button(df, filename, f'Click here to download {filename}', pickle_it=False)
+        # st.markdown(download_button_str, unsafe_allow_html=True)
 
     if st.sidebar.checkbox("Show distribution plot", False):
         st.subheader("Heart Disease Data Set Distribution plot")

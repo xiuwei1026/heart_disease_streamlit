@@ -5,8 +5,3 @@ sklearn
 matplotlib
 seaborn
 plotly
-json
-pickle
-uuid
-re
-os
