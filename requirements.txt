@@ -1,0 +1,14 @@
+streamlit
+numpy
+pandas
+sklearn
+matplotlib
+seaborn
+plotly
+io
+base64
+json
+pickle
+uuid
+re
+os
