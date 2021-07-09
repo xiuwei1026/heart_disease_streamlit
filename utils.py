@@ -7,13 +7,13 @@ import plotly.offline as py
 import plotly.express as px
 import plotly.graph_objs as go
 
-import io
-import base64
-import os
-import json
-import pickle
-import uuid
-import re
+# import io
+# import base64
+# import os
+# import json
+# import pickle
+# import uuid
+# import re
 
 
 from sklearn.metrics import plot_confusion_matrix, plot_roc_curve, plot_precision_recall_curve

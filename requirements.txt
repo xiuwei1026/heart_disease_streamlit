@@ -5,7 +5,6 @@ sklearn
 matplotlib
 seaborn
 plotly
-base64
 json
 pickle
 uuid
